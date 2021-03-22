@@ -1,0 +1,108 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 280px;
+  height: 400px;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px black solid;
+  border-radius: 20px;
+
+  background-color: rgb(27, 19, 19);
+}
+
+.display {
+  width: 270px;
+  padding: 4px;
+  height: 30px;
+
+  background-color: rgb(27, 19, 19);
+  color: white;
+
+  border: none;
+
+  margin: 0 0 20px 0;
+
+  text-align: right;
+  font-size: 30px;
+}
+
+.button {
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  padding: 0;
+
+  border-radius: 50%;
+  border: none;
+
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+[data-type='percent'] {
+  background-color: grey;
+  color: black;
+
+  font-weight: bold;
+}
+
+[data-type='back'] {
+  background-color: grey;
+  color: black;
+
+  font-weight: bold;
+}
+
+[data-type='comma'] {
+  background-color: grey;
+  color: black;
+
+  font-weight: bold;
+}
+
+[data-type='clear'] {
+  background-color: grey;
+  color: black;
+
+  font-weight: bold;
+}
+
+[data-type='number'] {
+  background-color: white;
+  color: black;
+
+  font-weight: bold;
+}
+
+[data-type='operation'] {
+  background-color: orange;
+  color: white;
+
+  font-weight: bold;
+}
+
+[data-type='equil'] {
+  width: 120px;
+  border-radius: 20px;
+  background-color: orange;
+  color: white;
+
+  font-weight: bold;
+
+  grid-area: equal;
+}
